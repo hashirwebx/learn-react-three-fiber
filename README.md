@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Learn Three.js
+=======
+# Learn React Three Fiber
+>>>>>>> ab054a0bee884f44424f6337eefa3649a86d5eb0
 
 A Vite-powered React + Three.js project for experimenting with @react-three/fiber, GSAP scroll animations, and image-driven 3D content.
 
