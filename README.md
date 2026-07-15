@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-# Learn Three.js
-=======
+
 # Learn React Three Fiber
->>>>>>> ab054a0bee884f44424f6337eefa3649a86d5eb0
 
 A Vite-powered React + Three.js project for experimenting with @react-three/fiber, GSAP scroll animations, and image-driven 3D content.
 
@@ -22,7 +19,6 @@ A Vite-powered React + Three.js project for experimenting with @react-three/fibe
 - `src/main.jsx` — application bootstrap
 - `src/app.jsx` — main app component with Canvas and UI
 - `src/Cyl.jsx` — textured cylinder mesh component
-- `src/InfiniteScroller.jsx` — GSAP-powered scroller component
 - `src/FooterOverlay.jsx` — button overlay UI component
 - `src/style.css` — layout and component styles
 
@@ -49,6 +45,5 @@ Then open the local Vite URL shown in the terminal.
 
 ## Notes
 
-- The app currently uses a fixed image asset imported in `src/InfiniteScroller.jsx`
 - The footer overlay includes a like button and static action buttons
-- The 3D canvas is full-screen and the scroller is pinned while scrolling
+- The 3D canvas is full-screen, and the scroller is pinned while scrolling
