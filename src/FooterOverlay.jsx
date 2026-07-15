@@ -14,13 +14,13 @@ export default function FooterOverlay(){
 
   return (
     <div className="footer-overlay">
-      <div className="footer-inner">
-        <div style={{display:'flex',flexDirection:'column',gap:6,alignItems:'flex-end'}}>
-          <div style={{color:'#fff',fontSize:14}}>Make your team and participate</div>
-          <div style={{fontSize:12,color:'#ddd'}}>{count} likes</div>
+      <div className="footer-card">
+        <div className="footer-copy">
+          <div className="footer-title">Join the conversation</div>
+          <div className="footer-meta">{count} likes</div>
         </div>
-        <div style={{display:'flex',gap:12}}>
-          <button className="btn primary">Enrollment Closed</button>
+        <div className="footer-actions">
+          <button className="btn primary border">Enrollment Closed</button>
           <button className="btn accent">Interesting, next.</button>
           <button className="btn" onClick={toggleLike} aria-pressed={liked}>
             {liked ? '♥ Liked' : '♡ Like'}
