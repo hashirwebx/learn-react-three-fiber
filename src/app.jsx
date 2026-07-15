@@ -3,7 +3,7 @@ import { OrbitControls } from "@react-three/drei";
 import "./style.css";
 import Cyl from "./Cyl";
 import { Bloom, ToneMapping, EffectComposer } from "@react-three/postprocessing";
-import InfiniteScroller from './InfiniteScroller';
+
 import FooterOverlay from './FooterOverlay';
 
 const App = () => {
@@ -24,7 +24,6 @@ const App = () => {
           <ToneMapping adaptive />
         </EffectComposer>
       </Canvas>
-      <InfiniteScroller />
       <FooterOverlay />
     </>
   );
